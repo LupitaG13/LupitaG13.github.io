@@ -1,0 +1,141 @@
+<html>
+<head>
+    <title>Formularios en HTML</title>
+    <link rel="stylesheet" href="../CSS/style.css" type="text/css">
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        .icono-inicio{
+            width: 50px;
+            height: auto;
+            margin-right: 20px;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="animate__animated animate__flipInX">FORMULARIOS</h1>
+        <a href="../index.html"><img class="icono-inicio animate__animated animate__pulse" src="../Imagen/icon%20inicio.png" alt="icono-inicio"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="formato_de_texto.html">Formatos</a></li>
+            <li><a href="lista.html">Listas</a></li>
+            <li><a href="Enlaces.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="Imagenes.html">Imagenes</a></li>
+            <li><a href="audio.html">Audios</a></li>
+            <li><a href="Video.html">Videos</a></li>
+            <li><a href="Formularios.html">Formularios</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi voluptatum repellat consectetur adipisci nesciunt vero pariatur vel quas placeat, fugiat, omnis nam ipsum in facilis maxime eos atque, nihil blanditiis optio recusandae at quidem. Impedit iste perspiciatis ad rerum enim consectetur, velit cupiditate officiis eum ex reiciendis deleniti reprehenderit, maiores similique beatae ab earum eveniet suscipit minima alias officia nisi dicta, non nam? Beatae voluptatum assumenda quisquam quam saepe eaque dignissimos libero laboriosam inventore nostrum cum cupiditate repudiandae suscipit corporis reprehenderit, qui eveniet quia consectetur officia, in, sed, tempora dolor! Numquam iure rerum et provident, necessitatibus repudiandae facilis, repellendus at?</p> <form action="" method="get">
+                <label for="fnombre">Nombre</label>
+                <input type="text" id="fnombre" name="fnombre" value="Escribe tu nombre aqui...">
+                <label for="fapellido">Apellido</label>
+                <input type="text" id="fapellido" name="fapellido" value="Escribe tu apellido aqui...">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, nostrum magnam! Expedita eligendi ipsa labore ipsam id ipsum totam saepe quibusdam, itaque illo quos asperiores architecto quas ullam laborum pariatur non odio rem est maxime esse quaerat temporibus? Nulla vero veniam, ipsum unde dignissimos quia repellat, ipsa quod, voluptates mollitia reprehenderit. Aspernatur ipsam error commodi saepe quibusdam quasi officiis repudiandae dolorem quaerat esse iste iusto quisquam accusamus a dignissimos illo natus neque reprehenderit obcaecati ducimus omnis beatae delectus, libero sapiente! Quod nesciunt voluptatem quas earum, obcaecati iste maiores natus placeat laudantium, odio fugiat quo. Ullam nemo quaerat, voluptates debitis esse.</p> <form action="">
+                <label for="fnombre">Nombre</label>
+                <input type="text" id="fnombre" name="fnombre">
+                <label for="fapellido">Apellido</label>
+                <input type="text" id="fapellido" name="fapellido">
+                <br>
+                <label for="nacimiento">Fecha de nacimiento</label>
+                <input type="date" id="nacimiento" name="nacimiento">
+                <br>
+                <label for="email">Correo electronico</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="nombre de usuario">Nombre de usuario</label>
+                <input type="text" id="nombre de usuario" name="nombre de usuario">
+                <label for="pwd">Contraseña</label>
+                <input type="contraseña" id="pwd" name="pwd">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reiniciar">
+                <br>
+            </form>    
+        </section>
+        <section>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam aspernatur molestiae reprehenderit odit vero laudantium quasi delectus dolorum nostrum quisquam accusamus iure error quas est et, aliquam voluptatum quos iste rem corporis, officiis laboriosam adipisci! Sapiente nihil eveniet ea suscipit, praesentium temporibus odit accusantium delectus qui, velit eos. Nemo, ipsum quia culpa necessitatibus, sit sapiente ab ea odit facilis, ipsa facere quae, possimus eligendi alias vitae quidem quis consectetur illo. At laboriosam, veniam quibusdam illo porro dolorum odio vero natus corrupti commodi ipsam optio delectus debitis, deleniti odit voluptates asperiores qui explicabo. Esse dolorem eum, maxime aspernatur adipisci illum corporis!</p> <form method="get" action="">
+               <label for="fnombre1">Nombre:</label>
+               <input type="text" id="fnombre1" name="fnombre1" value="">
+               <label for="genero">Género:</label><br>
+               <input type="radio" id="masculino" name="masculino" value="masculino">
+               <label>Masculino</label>
+               <input type="radio" id="femenino" name="femenino" value="femenino">
+               <label>Femenino</label>
+               <br>
+               
+               <label for="pais">País:</label>
+               <select id="pais-ul" name="pais-ul">
+                   <option value="mx">México</option>
+                   <option value="es">España</option>
+                   <option value="us">Estados Unidos</option>
+                   <option value="it">Italia</option>
+                   <option value="co">Colombia</option>
+                   <option value="bo">Bolivia</option>
+               </select>  
+               <br>
+               <label for="color-fav">¿Cuál es tu color favorito?</label>
+               <input type="color" value="" id="color-fav" name="color-fav">
+               <br>
+               <label for="">Elige el genero musical con el que te identifiques</label>
+               <br>
+               <input type="checkbox" id="g-musical1" name="g-musical1" value="jazz">
+               <label for="id-musical1">Jazz</label>
+               <input type="checkbox" id="g-musical2" name="g-musical2" value="rock">
+                <label for="id-musical2">Rock</label>
+               <input type="checkbox" id="g-musical3" name="g-musical3" value="indie">
+                <label for="id-musical3">Indie</label>
+               <input type="checkbox" id="g-musical4" name="g-musical4" value="tropical">
+                <label for="id-musical4">Tropical</label>
+               <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa numquam voluptate odio dolorem quo, dignissimos adipisci, sequi autem amet totam nemo veritatis blanditiis quas est voluptatem unde tenetur eligendi quod perferendis, perspiciatis quasi! Obcaecati, distinctio, est. Odit, perferendis, sapiente! Magni optio non vitae incidunt fugit autem laudantium vel dolore voluptate facere pariatur quam ipsam eius, id minus odit delectus! Sint, quibusdam, nobis! Asperiores quod saepe quos ipsam beatae quo aliquid animi eveniet autem iure tempora, adipisci accusantium, veniam velit, ducimus et possimus numquam. Perspiciatis iste praesentium, quam sint nisi et unde ipsa, ratione, aliquam quasi alias nam delectus quo explicabo?</p> <form action="">
+                <label for="homepage">Ingresa la URL</label>
+                <input type="url" id="homepage" name="homepage">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <section>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi reiciendis quod necessitatibus amet distinctio consectetur praesentium numquam, id perspiciatis eos, maxime iure nihil aliquam officia dicta facere, officiis molestiae saepe sint laborum eligendi voluptas cupiditate. Sunt nisi cum voluptatem repellendus natus id tempora qui vel eaque cumque, animi voluptate modi, veritatis ex nobis dicta fugit, quae at expedita asperiores. Earum debitis perspiciatis aut, saepe sequi facere soluta necessitatibus et neque magnam deserunt quibusdam qui? Similique sed officiis quos voluptatem, minima eligendi quo amet quod quia id aspernatur vero quis temporibus dicta consequatur eius, nam culpa enim, magnam laborum. Est, odio!</p> <form action="" method="get">
+                <label for="fnombre">Nombre</label>
+                <input type="text" id="fnombre" name="fnombre">
+                <label for="fapellido">Apellido</label>
+                <input type="text" id="fapellido" name="fapellido">
+                <input type="image" src="../Imagen/clip.png" alt="submit" value="Enviar" width="48" height="48">
+            </form>
+        </section>
+        <section>
+            <h2>Titulo</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi reiciendis quod necessitatibus amet distinctio consectetur praesentium numquam, id perspiciatis eos, maxime iure nihil aliquam officia dicta facere, officiis molestiae saepe sint laborum eligendi voluptas cupiditate. Sunt nisi cum voluptatem repellendus natus id tempora qui vel eaque cumque, animi voluptate modi, veritatis ex nobis dicta fugit, quae at expedita asperiores. Earum debitis perspiciatis aut, saepe sequi facere soluta necessitatibus et neque magnam deserunt quibusdam qui? Similique sed officiis quos voluptatem, minima eligendi quo amet quod quia id aspernatur vero quis temporibus dicta consequatur eius, nam culpa enim, magnam laborum. Est, odio!</p> <form action="" method="get">
+                <label form="nombre-1">Nombre:</label>
+                <input type="text" id="nombre-1" name="nombre-1" value="">
+                <label for="email-1">Email:</label>
+                <input type="email-1" id="email-1" name="email-1" value="">
+                <label for="mensaje">Comentario:</label>
+                <textarea name="mensaje" rows="30" cols="40" >Escribe tu mensaje aqui...</textarea>
+                <input type="submit" value="Enviar">
+                
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h6>Elaborado por Guadalupe García Pastrana</h6>
+    </footer>
+</body>
+</html>

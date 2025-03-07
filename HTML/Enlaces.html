@@ -1,0 +1,148 @@
+<html>
+    <head>
+       <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+        <title>Enlaces en HTML</title>
+        <style type="text/css"> @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=IM+Fell+DW+Pica+SC&display=swap');
+            
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+            header,nav,main,footer{
+                width: 80%;
+                padding: 30px;
+                background-color: firebrick;
+                color: bisque;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                height: 100px;
+            }
+            nav{
+                height: 50px;
+                background-color: darksalmon;
+            }
+            nav  ul{
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                width: 10%;
+                height: 30px;
+                background-color: brown;
+                display: inline-block;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            main{
+                height: auto;
+                background-color: antiquewhite;
+                color: firebrick;
+            }
+            section{
+                width: 80%;
+                height: 300px;
+                background-color: darksalmon;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            footer h4{
+                width: 1200px;
+                height: 30px;
+                padding: 10px;
+            }
+            header, footer{
+                text-align: center;
+            }
+            a:link{
+                color: yellow;
+            }
+            a:visited{
+                color: paleturquoise;
+            }
+            a:active{
+                color: darkcyan;
+            }
+            /*Estado hover modifica cuando se pasa el mouse del texto*/
+            a:hover{
+                color: greenyellow;      
+            }
+            h2{
+                margin-bottom: 30px;
+                font-family: "Croissant One", serif;
+            }
+            h1{
+                font-family: "IM Fell DW Pica SC", serif;
+            }
+            p{
+                color: maroon;
+            }
+            /*Este bloque de codigo modifica los estados de enlaces para el menu*/
+            nav ul li a{
+                color: firebrick;
+            }
+            nav ul li a:link,nav ul li a:visited{
+                color: bisque;
+                text-decoration: none;
+            }
+            nav ul li:hover{
+                background-color: bisque;
+                width: 12%;
+            }
+            nav ul li a:hover{
+                color: firebrick;
+            }
+            .icono-inicio{
+            width: 50px;
+            height: auto;
+            margin-left: 90%;
+            margin-top: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>ENLACES EN HTML</h1>
+            <a href="../index.html"><img class="icono-inicio animate__animated animate__pulse" src="../Imagen/icon%20inicio.png" alt="icono-inicio"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="formato_de_texto.html">Formatos</a></li>
+                <li><a href="lista.html">Listas</a></li>
+                <li><a href="Enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="Imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audios</a></li>
+                <li><a href="Video.html">Videos</a></li>
+                <li><a href="Formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Enlaces externos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat risus venenatis, vestibulum justo non, commodo odio. Praesent viverra sem turpis, nec varius velit fringilla sit amet. Maecenas pharetra non arcu id ultrices. Aenean facilisis ultricies arcu nec molestie. Vivamus eleifend, nibh ac malesuada mattis, diam arcu facilisis purus, sit amet pharetra risus odio vel tellus. Ut vulputate ligula nec enim gravida molestie. Pellentesque quis accumsan enim. <a href="http://www.buap.mx"target="_blank">Benemerita Universidad Autonoma de Puebla</a> Sed rutrum suscipit ex, eget scelerisque leo rutrum eu. <a href="http://www.udg.mx"target="_blank">Universidad de Guadalajara</a> Vivamus vitae turpis risus. Morbi malesuada faucibus lobortis. Sed rhoncus mauris ut facilisis blandit. Etiam porttitor nec orci eget interdum. Sed leo sapien, cursus.</p>
+            </section>
+            <section>
+                <h2>Enlaces internos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nec fermentum massa. Donec vulputate elit enim, consequat dapibus ante blandit eu. Mauris porttitor, mauris et cursus fringilla, nisi metus luctus libero, <a href="formato_de_texto.html"target="_blank">Practica de formatos de texto</a> eget aliquam justo dolor vitae lectus. Donec pulvinar dictum accumsan. Phasellus quis dignissim dolor, eu molestie lorem. Nullam tincidunt est in dolor pellentesque sollicitudin. <a href="lista.html"target="_blank">Practicas de html listas</a> Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam luctus nulla sed eleifend porta. Maecenas a semper ipsum. Proin accumsan ante.</p>
+            </section>
+            <section>
+                <h2>Enlaces a archivos</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel urna ligula. Quisque est tellus, viverra eget porttitor ac, suscipit nec purus. Nam porttitor ac est vel blandit. Sed enim dolor, <a href="../Audio/efecto.mp3"target="_blank">Audio de efecto</a> lacinia nec mi et, vestibulum facilisis est. Integer eget eleifend enim. Mauris ut molestie felis. Quisque hendrerit, erat vitae maximus pulvinar, nibh metus tristique leo, vitae gravida massa tellus in nisi. Integer dolor lorem,  luctus non auctor ut, blandit a tortor. Pellentesque accumsan augue quis magna tristique, non malesuada urna porta. Aliquam consequat consectetur posuere. Praesent vel vestibulum augue. Donec nec erat ut odio vestibulum pretium in non sapien.</p>
+            </section>
+            <section>
+                <h2>Enlace con descarga de archivo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eu dictum sem. Sed imperdiet pharetra sem, id placerat justo varius vitae. Sed rutrum lectus ut consequat faucibus. Pellentesque lobortis leo ac dolor faucibus pulvinar. <a href="../Imagen/14%20de%20febrero.jpg"download>Vista de imagen del 14 de febrero</a> Cras consequat orci quis libero dignissim blandit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer consequat erat enim, id sollicitudin lorem scelerisque id. Maecenas elementum orci vel tempor imperdiet. Aliquam aliquet, metus sed placerat iaculis, sem purus hendrerit metus, et euismod ipsum libero eu felis. Mauris sed leo a leo accumsan consectetur. Vivamus vitae risus id sapien iaculis lobortis at.</p>
+            </section>
+        </main> 
+        <footer>
+            <h4>Elaborado por Guadalupe García Pastrana</h4>
+        </footer>
+    </body>
+</html>
